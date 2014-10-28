@@ -10,7 +10,7 @@
 # Variables
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="bashrc bash_profile vim vimrc"
+files="bashrc bash_profile vim vimrc tmux.conf gitconfig"
 
 # Create backup for current files
 echo "Creating folder to backup current files";
