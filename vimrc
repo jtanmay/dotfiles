@@ -10,3 +10,7 @@ endif
  syntax enable
  set background=light
  colorscheme solarized
+
+
+" Runtime path for ctrlp plugin
+set runtimepath^=~/.vim/bundle/ctrlp.vim

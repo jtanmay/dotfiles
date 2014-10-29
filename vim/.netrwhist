@@ -1,5 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/tjoshi/Sites/pchcom/website/libraries/pchcom/games'
-let g:netrw_dirhist_2='/Users/tjoshi/Sites/pchapi'
-let g:netrw_dirhist_3='/Users/tjoshi/Sites/pchapi/public'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/tjoshi/Sites/pchapi/src'
+let g:netrw_dirhist_2='/Users/tjoshi/Sites/pchapi/src/Config'
