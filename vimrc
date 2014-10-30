@@ -14,3 +14,15 @@ endif
 
 " Runtime path for ctrlp plugin
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Automaticall load NERDTree
+" autocmd vimenter * NERDTree
+
+" add NERDTree to runtime
+set runtimepath+=~/.vim/bundle/nerdtree
+
+" plathgen plugin which updates runtime environment to .vim/bundle and checks on plugin in there
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
