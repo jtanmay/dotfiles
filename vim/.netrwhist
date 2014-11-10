@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/tjoshi/Sites/deployment'
+let g:netrw_dirhist_2='/Users/tjoshi/dotfiles/vim/bundle/pdv/autoload'
+let g:netrw_dirhist_3='/Users/tjoshi/Sites/deployment'
+let g:netrw_dirhist_4='/Users/tjoshi/Sites/build_test'
+let g:netrw_dirhist_5='/Users/tjoshi/Sites/pchapi'
+let g:netrw_dirhist_6='/Users/tjoshi/.vim'
+let g:netrw_dirhist_7='/Users/tjoshi/Sites/pchapi'
