@@ -628,13 +628,16 @@ exe "hi! Todo"           .s:fmt_bold   .s:fg_magenta.s:bg_none
 " Extended highlighting "{{{
 " ---------------------------------------------------------------------
 if      (g:solarized_visibility=="high")
-    exe "hi! SpecialKey"     .s:fmt_revr   .s:fg_red    .s:bg_none
+    " exe "hi! SpecialKey"     .s:fmt_revr   .s:fg_red    .s:bg_none
+    exe "hi! SpecialKey"     .s:fmt_revr   .s:fg_base1    .s:bg_none
     exe "hi! NonText"        .s:fmt_bold   .s:fg_base1  .s:bg_none
 elseif  (g:solarized_visibility=="low")
+    " exe "hi! SpecialKey"     .s:fmt_bold   .s:fg_base02 .s:bg_none
     exe "hi! SpecialKey"     .s:fmt_bold   .s:fg_base02 .s:bg_none
     exe "hi! NonText"        .s:fmt_bold   .s:fg_base02 .s:bg_none
 else
-    exe "hi! SpecialKey"     .s:fmt_bold   .s:fg_red    .s:bg_none
+    " exe "hi! SpecialKey"     .s:fmt_bold   .s:fg_red    .s:bg_none
+    exe "hi! SpecialKey"     .s:fmt_bold   .s:fg_base01    .s:bg_none
     exe "hi! NonText"        .s:fmt_bold   .s:fg_base01 .s:bg_none
 endif
 if (has("gui_running")) || &t_Co > 8
@@ -967,3 +970,4 @@ autocmd GUIEnter * if (s:vmode != "gui") | exe "colorscheme " . g:colors_name | 
 "
 " vim:foldmethod=marker:foldlevel=0
 "}}}
+"
