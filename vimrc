@@ -15,7 +15,7 @@ highlight SpecialKey guifg=#4a4a59
 set mouse=a " Use mouse support in XTerm/iTerm.
 
 "Power line config
-set rtp+=/Users/tjoshi/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
+" set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
 " check autocmd is available, and based on that enabled/disbale settings
 " if has("autocmd")
     " Enable file type detection
@@ -69,16 +69,16 @@ call submode#map('window-resize', 'n', '', '.', '<C-w>>')
 
 " PHP codesniffer binary (default = phpcs)
 " let g:phpqa_php_cmd = "/usr/local/zend/bin/php"
-let g:phpqa_codesniffer_args = "--standard=/Users/tjoshi/bin/ruleset.xml"
+" let g:phpqa_codesniffer_args = "--standard=/Users/tjoshi/bin/ruleset.xml"
 " let g:phpqa_codesniffer_cmd='/usr/local/zend/bin/phpcs'
-let g:phpqa_codesniffer_autorun = 0
+" let g:phpqa_codesniffer_autorun = 0
 
 " CTRL+P settings
 let g:ctrlp_follow_symlinks = 1
 let g:ctrlp_cmd = 'CtrlP pwd'
 " PHP Documentor Settings
- let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates"
- nnoremap <C-i> :call pdv#DocumentWithSnip()<CR>
+" let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates"
+" nnoremap <C-i> :call pdv#DocumentWithSnip()<CR>
 
 function! PhpSyntaxOverride()
     hi! def link phpDocTags  phpDefine
@@ -105,10 +105,10 @@ noremap <Left> <nop>
 noremap <Up> <nop>
 noremap <Down> <nop>
 
-inoremap <Right> <nop>
-inoremap <Left> <nop>
-inoremap <Up> <nop>
-inoremap <Down> <nop>
+"inoremap <Right> <nop>
+"#inoremap <Left> <nop>
+"#inoremap <Up> <nop>
+"#inoremap <Down> <nop>
 
 inoremap jk <esc>
 inoremap <esc> <nop>

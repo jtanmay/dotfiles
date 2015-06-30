@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/tjoshi/Sites/pch_com'
 let g:netrw_dirhist_2='/Users/tjoshi'
 let g:netrw_dirhist_3='/Users/tjoshi/Sites/pch_com'
 let g:netrw_dirhist_4='/Users/tjoshi/Sites/pch_com_build2.0'
+let g:netrw_dirhist_5='/Users/tjoshi/Sites/pchapi'
+let g:netrw_dirhist_6='/Users/tjoshi/.vim'
+let g:netrw_dirhist_7='/Users/tjoshi'
+let g:netrw_dirhist_8='/Users/tjoshi/dotfiles/vim/bundle'
